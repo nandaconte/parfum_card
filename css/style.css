@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:0;
+    font-family: 'Montserrat', sans-serif;
+}
+body,
+html{
+    background-color: #E2C799;
+    
+    
+}
+main{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    /* height: 100vh; */
+    align-items: stretch;
+   margin-top: 4rem;
+   
+       
+}
+.image-mobile{
+    display: none;
+}
+.image-container{
+    display: flex;   
+    justify-content: center;
+    width: 25%;
+}
+.image-container .image-desktop{
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 38px 0 0 38px;
+    box-shadow: 3px 3px 10px 1px rgb(39, 37, 37);
+    position: relative;
+}
+.informations{
+    width: 25%;
+    justify-content: center;
+    text-align: left;
+    background-color: #F2ECBE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    border-radius: 0 38px 38px 0;
+    box-shadow: 3px 3px 10px 1px rgb(39, 37, 37);
+    margin-left: -0.2rem;
+    
+}
+.informations span{
+    text-align: left;
+   
+}
+.product-title{
+   font-size: 35px;
+   text-align: left;   
+}
+.paragraph-information{
+    text-align: left;
+    font-size: 15px;
+}
+.price1{
+    font-size:30px;
+    margin-right: 2rem;
+    color:#9A3B3B;
+    font-weight: bolder;
+}
+
+.price2{
+    text-decoration: line-through;
+}
+button{
+    background-color: #9A3B3B;
+    padding:1rem;
+    width: 90%;
+    border-radius: 1rem;
+}
+
+button a{
+    color: #E2C799;
+    text-decoration: none;
+    font-weight: bolder;
+}
+button:hover{
+    background-color:#7e5a46;
+   
+}
+
